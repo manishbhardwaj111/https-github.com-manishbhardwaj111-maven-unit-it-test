@@ -30,6 +30,6 @@ public class MyClass {
     }
 
     public Integer calculateKey() {
-        return id*secret;
+        return id*secret*2;
     }
 }
